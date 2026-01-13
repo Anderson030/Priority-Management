@@ -1,0 +1,79 @@
+/* Fondo general */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #1e1e2f; /* fondo oscuro */
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contenedor principal */
+#root {
+  width: 100%;
+}
+
+.app-container {
+  background-color: #2a2a3d;
+  padding: 30px 40px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Títulos */
+h2,
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+/* Inputs y select */
+input,
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Botón */
+button {
+  padding: 10px;
+  background-color: #4f6cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Separación visual del botón */
+button:hover {
+  background-color: #3c54cc;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #3a3a55;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
